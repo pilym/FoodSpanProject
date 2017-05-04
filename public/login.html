@@ -4,9 +4,23 @@
         <title>Login</title>
         <meta charset="utf-8"/>
         <link href="style/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="style/style.css" rel="stylesheet" media="screen"/>
         <script src="js/bootstrap.js" type="application/javascript"></script>
     </head>
     <body>
     
+        <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyCeEQFvrdt1Ze4PHVGX8uI2bgC3Juw_URY",
+                authDomain: "new-project-2717c.firebaseapp.com",
+                databaseURL: "https://new-project-2717c.firebaseio.com",
+                projectId: "new-project-2717c",
+                storageBucket: "new-project-2717c.appspot.com",
+                messagingSenderId: "745386919068"
+            };
+            firebase.initializeApp(config);
+        </script>
     </body>
 </html>
